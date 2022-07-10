@@ -38,3 +38,7 @@ USD$0.055 on our test set.
 ## Limitations and Futureworks
 
 A prediction of prices a day into the future is not very meaningful when it comes to actually using this prediction for trading. While a longer timeframe prediction can be conducted instead, low accuracy in predict price will be expected as seen in the graph below of predicted price 60 days into the future. The solution for this problem is the inclusion of Sentimental Analysis to increase accuracy of predicted data. For example, an analysis that account for whenever Elon Musk tweets about Dogecoin. 
+
+![60 days](https://user-images.githubusercontent.com/102948566/178129301-a042b4c6-b9a9-4627-be6d-77c8ef56782f.PNG)
+
+

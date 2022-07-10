@@ -1,3 +1,4 @@
+![27dyjq](https://user-images.githubusercontent.com/102948566/178129202-de07284e-a51d-438a-aa8a-a87c80989504.jpg)
 
 # Dogecoin Price Prediction
 
@@ -5,14 +6,19 @@ This project uses LSTM to do a time series prediction of the price of Dogecoin i
 
 
 
-
 ## Data
 
 Historical time series data which includes information like the daily closing and opening prices of Dogecoin is acquired from Yahoo 
 via Pandas Remote Data Access. 60 days worth of data prior to the date of prediction is used to make the eventual prediction of Dogecoin price on the target date. 
+
+![haha](https://user-images.githubusercontent.com/102948566/178129149-f682f0b8-0909-4547-ab52-ff3c369498bd.PNG)
+
+
 ## Model
 
 Model of Choice: LSTM
+
+![Deep-Dive-into-Bidirectional-LSTM-i2tutorials](https://user-images.githubusercontent.com/102948566/178129159-3897cdd0-dbff-4f0c-8775-f6025ce244b9.jpg)
 
 The deep learning Recurrent Neural Networks (RNN) is perfect for time series prediction like this one because the model does a good job at
 learning long term dependencies in data. As we are working with a big historical data set, which can potentially
@@ -27,6 +33,7 @@ USD$0.055 on our test set.
 | ------------------ | ----------------- |
 | -0.045             | -0.055            |
 
+![heheahaha](https://user-images.githubusercontent.com/102948566/178129181-92a43449-332f-4f65-acbe-fd279bae9ca4.PNG)
 
 ## Limitations and Futureworks
 
